@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url("./alexander-shatov-qt7S2QuAhJI-unsplash.jpg");
+	background-color: #3E3232;
+}
+
+.container{
+	background-color:rgb(126, 99, 99);
+	width: 250px;
+	height:250px;
+	border: dotted 2px black;
+	border-radius:10%;
+	margin: 70px 40px 30px 60px;
+}

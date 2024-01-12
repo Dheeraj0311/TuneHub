@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New Songs</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+	<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-6 container justify-content-center card">
+	<h2 class="text-center">Add Songs</h2>
+	<div class="card-body">
+	
+	<form action="addSong" method="post">
+	<div class="form-group">
+	<label>Song Name: </label>
+	<input class="form-control" type="text" placeholder="enter the song name" name="name"/>
+	</div>
+	
+	<div class="form-group">
+	<label>Song Artist: </label>
+	<input class="form-control" type="text" placeholder="enter the artist" name="artist"/>
+	</div>
+	
+	<div class="form-group">
+	<label>Song Genre: </label>
+	<input class="form-control" type="text" placeholder="enter the genre" name="genre"/>
+	</div>
+	
+	<div class="form-group">
+	<label>Song Link: </label>
+	<input class="form-control" type="text" placeholder="enter the link" name="link"/>
+	</div>
+	
+	<input class="btn btn-primary" type="submit" value="ADD Song"/>
+	</form>
+	</div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
